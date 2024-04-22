@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<section class="food-search text-center">
+        
+     <center><i><font>
+             <font color="white">	
+             <font size=8>			 
+	         <b><pre>                  Good Food!Good Life!</pre><b></i></center></h6>
+             </font> 
+     <title>Sign in</title>
+	</div>
+	</section>
+    <meta name='viewport' content='width=device-width,initial-scale=1.0'>
+  
+    <link rel='stylesheet' href="css/style.css">
+</head>
+<style>
+    legend { 
+
+            display: block; 
+        
+            padding-left: 2px; 
+
+            padding-right: 2px; 
+	
+            border: none;
+        } 
+
+
+</style>
+<body style="background-color:#ff6b81;">
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+			    
+                 <h3 style="margin-left: 32% ,background-image: url('../images/bg.jpg');"></h3>
+				   
+            </div>
+        </div>
+	</div>
+	
+	
+	
+     <script>
+	    var empattern=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+		var papattern=/(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/;
+		
+		function validate()
+		{
+		    var email=document.getElementById("em").value;
+			var pass=document.getElementById("pass").value;
+			
+			if(empattern.test(email))
+			{
+			   alert("Valid Email!");
+			}
+			else
+			{
+			  alert("Invalid Email!");
+			  return false;
+			}
+			
+			if(papattern.test(pass))
+			{
+			   alert("Valid Password!");
+			}
+			else
+			{
+			  alert("Invalid Password!");
+			}
+		}
+	 </script>
+  </head>
+   
+     <body>
+       <center>
+          <form>
+		     <fieldset style="width:300px">
+		      <legend>Login Form</legend>
+	         <font color="black">
+		       <font size="5">
+	              <b><br/><br/><br/>Email:          </b><input type="email" id="em" >
+		          <b><br/><br/>Password:</b><input type='password' id="pass" name='password'>
+			   </font>
+			   <font size="5">
+			       <br/><br/><br/><p><button class="button" onclick="validate()">Login</button>
+				   
+			       <b><br/><br/><br/>New User?</b>
+				   <a href="newaccount.html"><button class="button">Create Account</button></a>
+			   </font>
+		     </font>
+		    </fieldset>
+		  </form>
+		<center>
+    </body>
+</html>

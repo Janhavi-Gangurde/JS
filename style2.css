@@ -1,0 +1,16 @@
+.imgs {
+  background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  padding: 10px;
+  
+}
+<style>
+        body{
+           background-image: url('../images/bg.jpg');
+            background-repeat: no-repeat;
+             background-attachment: fixed;
+          background-size: cover;
+        }
+    </style>
